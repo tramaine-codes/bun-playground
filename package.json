@@ -1,13 +1,15 @@
 {
   "name": "bun-playground",
-  "module": "index.ts",
+  "module": "./src/index.ts",
   "type": "module",
   "scripts": {
-    "start": "bun run index.ts"
+    "start": "bun run ./src/index.ts",
+    "test": "bun test",
+    "test:watch": "bun test --watch"
   },
   "devDependencies": {
-    "@types/figlet": "1.5.8",
-    "bun-types": "1.1.8"
+    "@types/bun": "1.1.2",
+    "@types/figlet": "1.5.8"
   },
   "peerDependencies": {
     "typescript": "5.0.0"
