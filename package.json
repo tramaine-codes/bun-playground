@@ -8,7 +8,7 @@
     "test:watch": "bun test --watch"
   },
   "devDependencies": {
-    "@types/bun": "1.1.13",
+    "@types/bun": "1.1.14",
     "@types/figlet": "1.7.0"
   },
   "peerDependencies": {
